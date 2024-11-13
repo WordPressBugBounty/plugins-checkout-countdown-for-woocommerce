@@ -4,9 +4,6 @@
 	width: 100%;
 	z-index: 9999;
 }
-.checkout-countdown-is-hidden {
-	display: none;
-}
 @-webkit-keyframes checkout-countdown-loading-dot-keyframes {
 	0% {
 		opacity: 0.4;
@@ -60,4 +57,7 @@
 .checkout-countdown-loading-dot:nth-child(3) {
 	-webkit-animation-delay: 1s;
 	animation-delay: 1s;
+}
+.checkout-countdown-is-hidden {
+	display: none !important;
 }

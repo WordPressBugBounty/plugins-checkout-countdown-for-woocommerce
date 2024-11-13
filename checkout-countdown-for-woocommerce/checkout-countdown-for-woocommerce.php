@@ -2,16 +2,16 @@
 /**
  * Plugin Name:       Checkout Countdown for WooCommerce
  * Description:       A flexible WooCommerce cart/checkout countdown to help improve cart conversion.
- * Version:           4.0.0
+ * Version:           4.0.1
  * Author:            Puri.io
  * Author URI:        https://puri.io/
  * Text Domain:       checkout-countdown-for-woocommerce
- * Domain Path:       /languages
+ * Domain Path:       /languages/
  *
  * Requires PHP: 7.4
  * Requires at least: 5.0
  * WC requires at least: 5.0
- * WC tested up to: 9.0
+ * WC tested up to: 9.4
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -44,11 +44,11 @@ if ( ! function_exists( 'ccfwoo_get_option' ) ) {
 if ( ! function_exists( 'ccfwoo_admin_notifications' ) ) {
 	function ccfwoo_admin_notifications() {
 
-		$compatability = apply_filters( 'ccfwoo_extend_setup', array() );
+		$compatibility = apply_filters( 'ccfwoo_extend_setup', array() );
 
-		if ( isset( $compatability['pro'] ) && isset( $compatability['pro']['version'] ) ) {
+		if ( isset( $compatibility['pro'] ) && isset( $compatibility['pro']['version'] ) ) {
 
-			if ( version_compare( $compatability['pro']['version'], '3.0.0' ) < 0 ) {
+			if ( version_compare( $compatibility['pro']['version'], '3.0.0' ) < 0 ) {
 				$class = 'notice notice-error';
 				$message = __( 'Update required to Checkout Countdown Pro 3.0+ or downgrade to Checkout Countdown Free 2.4.4', 'checkout-countdown-for-woocommerce' );
 				$button = '<a href="https://puri.io/blog/checkout-countdown-3-0-release-notes/" target="_blank">Read why in our release notes.</a>
@@ -95,7 +95,7 @@ class CCFWOO_Init {
 
 		$this->constants = array(
 			'name' => 'Checkout Countdown for WooCommerce',
-			'version' => '4.0.0',
+			'version' => '4.0.1',
 			'prefix' => 'ccfwoo',
 			'admin_page' => 'checkout-countdown',
 			'slug' => plugin_basename( __FILE__, ' . php' ),

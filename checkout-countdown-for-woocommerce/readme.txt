@@ -6,7 +6,7 @@ Author URI: https://puri.io/
 Author: Morgan Hvidt
 Donate link: https://www.paypal.me/morganhvidt/
 Requires at least: 5.0
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 7.4
 Stable tag: trunk
 License: GPLv2 or later
@@ -137,6 +137,12 @@ Yes, Checkout Countdown for WooCommerce is built with a responsive design, which
 5. Matches your theme, Divi Theme in this case.
 
 == Changelog ==
+
+= 4.0.1 =
+
+* Fixed edge case where countdown-is-hidden would not be respected.
+* Ready & tested for WordPress 6.7
+* Ready & tested for WooCommerce 9.4
 
 = 4.0.0 =
 
