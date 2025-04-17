@@ -1,4 +1,4 @@
-# Copyright (C) 2024 checkout-countdown-for-woocommerce
+# Copyright (C) 2025 checkout-countdown-for-woocommerce
 # This file is distributed under the same license as the checkout-countdown-for-woocommerce package.
 msgid ""
 msgstr ""
@@ -8,7 +8,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language-Team: Puri.io\n"
 "Last-Translator: Puri.io\n"
-"POT-Creation-Date: 2024-11-13 08:51+0000\n"
+"POT-Creation-Date: 2025-04-17 04:51+0000\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: dist/checkout-countdown-for-woocommerce/checkout-countdown-for-woocommerce.php:53
+#: dist/checkout-countdown-for-woocommerce/checkout-countdown-for-woocommerce.php:54
 msgid "Update required to Checkout Countdown Pro 3.0+ or downgrade to Checkout Countdown Free 2.4.4"
 msgstr ""
 

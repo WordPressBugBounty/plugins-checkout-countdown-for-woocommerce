@@ -222,7 +222,7 @@ function ccfwooCounter() {
 
 			ccfwooController.triggerEvent("document", "ccfwooFinishedCounting", true);
 		}, 1000);
-		// Wait 5 seconds and display default text.
+		// Wait 6 seconds and display default text.
 		setTimeout(function () {
 			// stop here if we are still counting.
 			if (ccfwooController.isCounting()) {
@@ -247,7 +247,7 @@ function ccfwooUpdateCountingHTML(element, duration) {
 
 	let string = ccfwooLocal.countdown_text.replace(
 		"{minutes}",
-		duration.minutes
+		duration.minutes,
 	);
 	string = string.replace("{seconds}", duration.seconds);
 	string = string.replace("{hours}", duration.hours);
@@ -327,17 +327,17 @@ function ccfwooFormatDuration(startDate, endDate) {
 	const weekdays = Math.floor(diff / 1000 / 60 / 60 / 24 / 7);
 	const days = Math.floor(diff / 1000 / 60 / 60 / 24 - weekdays * 7);
 	const hours = Math.floor(
-		diff / 1000 / 60 / 60 - weekdays * 7 * 24 - days * 24
+		diff / 1000 / 60 / 60 - weekdays * 7 * 24 - days * 24,
 	);
 	const minutes = Math.floor(
-		diff / 1000 / 60 - weekdays * 7 * 24 * 60 - days * 24 * 60 - hours * 60
+		diff / 1000 / 60 - weekdays * 7 * 24 * 60 - days * 24 * 60 - hours * 60,
 	);
 	const seconds = Math.floor(
 		diff / 1000 -
 			weekdays * 7 * 24 * 60 * 60 -
 			days * 24 * 60 * 60 -
 			hours * 60 * 60 -
-			minutes * 60
+			minutes * 60,
 	);
 	const milliseconds = Math.floor(
 		diff -
@@ -345,7 +345,7 @@ function ccfwooFormatDuration(startDate, endDate) {
 			days * 24 * 60 * 60 * 1000 -
 			hours * 60 * 60 * 1000 -
 			minutes * 60 * 1000 -
-			seconds * 1000
+			seconds * 1000,
 	);
 
 	// Check if the start date is past the end date.

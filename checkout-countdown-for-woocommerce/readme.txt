@@ -1,70 +1,72 @@
 # Checkout Countdown for WooCommerce - Boost Conversions & Reduce Cart Abandonment
 
 Contributors: morganhvidt
-Tags: product, cart, checkout, countdown, timer
+Tags: product, counter, checkout, countdown, timer
 Author URI: https://puri.io/
 Author: Morgan Hvidt
 Donate link: https://www.paypal.me/morganhvidt/
 Requires at least: 5.0
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 7.4
 Stable tag: trunk
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Boost cart conversion, reduce abandoned carts, and optimize your WooCommerce sales with Checkout Countdown. Our countdown timer starts once products are added to the cart, creating a sense of urgency that encourages customers to complete their purchase.
+The Countdown Bar for WooCommerce Products to improve your Cart & Checkout Flow
 
 ## Description
 
-Checkout Countdown for WooCommerce is an easy-to-use cart timer that increases cart conversion by adding a countdown timer as soon as any product is added to the cart. Reduce cart abandonment by letting your customers know exactly how long their order can be reserved. Our plugin goes beyond just a product timer; it's a comprehensive solution for sales optimization in your eCommerce store.
+Tired of abandoned carts? Checkout Countdown for WooCommerce helps you **recover lost sales** by adding a clear **countdown timer** the moment a product hits the cart. This simple **cart timer** creates urgency, reminding customers their items are reserved for a limited time, and encourages them to complete their purchase faster. It's an easy-to-use, effective tool for **boosting conversions** and optimizing your checkout flow.
 
 ### Boost Sales with WooCommerce Checkout Countdown
 
-Checkout Countdown for WooCommerce is designed to boost your sales by creating a sense of urgency. The countdown timer encourages customers to complete their purchases, thereby reducing cart abandonment and increasing conversion rates.
+Checkout Countdown for WooCommerce is designed to **boost your sales** by creating a tangible sense of urgency. The countdown timer encourages customers to complete their purchases, thereby **reducing cart abandonment** and **increasing conversion rates**.
 
 ### Easy to Use WooCommerce Cart Timer
 
-Our plugin is user-friendly and easy to set up. With a range of customization options, you can tailor the countdown timer to match your store's branding and meet your specific needs.
+Our plugin is **user-friendly and quick to set up**. With a range of customization options, you can easily tailor the countdown timer to **match your store's branding** and meet your specific needs.
 
 ### Optimize Your eCommerce Store with Checkout Countdown
 
-Sales optimization is crucial for the success of any eCommerce store. Our Checkout Countdown plugin contributes to the overall optimization of your WooCommerce store by enhancing the checkout process and improving customer experience.
+Sales optimization is crucial. Our Checkout Countdown plugin contributes to the overall optimization of your WooCommerce store by **enhancing the checkout process** and **improving customer experience** with clear time expectations.
 
 ### Create Urgency in eCommerce with Checkout Countdown
 
-The psychology of urgency in eCommerce is a powerful tool that can significantly boost sales. Our Checkout Countdown plugin capitalizes on this concept by adding a countdown timer to the cart, encouraging customers to complete their purchases before the timer runs out.
+The psychology of urgency is powerful. Our Checkout Countdown plugin capitalizes on this by adding a visible countdown timer to the cart, **motivating customers to act now** and complete their purchases before the timer runs out.
 
 ### Improve Conversion Rates with Checkout Countdown
 
-Our plugin can help improve your store's conversion rates by reducing cart abandonment. By showing customers how long their order can be reserved, the Checkout Countdown plugin creates a sense of urgency that encourages swift action.
+Our plugin directly helps **improve your store's conversion rates** by reducing cart abandonment. By showing customers exactly how long their order can be reserved, the Checkout Countdown plugin creates **proven urgency that encourages swift action**.
 
 ### Checkout Countdown for WooCommerce Features
 
-* **WordPress and WooCommerce Compatibility:** Seamlessly integrates with WordPress 6.3+ and WooCommerce 8+ (HPOS). 
-* **Dynamic Top Bar and Banner:** Display the countdown across your site. The bar appears only once a product is added to the customer's cart. 
-* **Pre-cart Banner Message:** Set up a separate banner message for sales marketing that appears before any products have been added to the cart. 
-* **Adaptable Styles:** Choose from multiple styles for your WooCommerce cart/checkout notice countdown timer. The design adapts to match your theme style. 
-* **Custom Placement with Shortcode:** Use our easy shortcode, **[checkout_countdown]**, for custom countdown placement. 
-* **Text Customization:** Personalize countdown text and expired cart text to match your store's voice. * **Color Customization:** Choose your preferred banner background color and font color to align with your brand identity. 
-* **FOMO Strategy:** Perfect for implementing Fear Of Missing Out strategies and reducing cart abandonment.
+* **Works Everywhere:** Seamlessly integrates with the latest **WordPress and WooCommerce** versions (including HPOS).
+* **Show Reservation Time:** Acts as a **product timer** for cart items, clearly showing customers their remaining time.
+* **Increase Urgency with a Dynamic Countdown Bar/Banner:** Display a highly visible **countdown bar** or banner across your site, appearing only when the cart isn't empty.
+* **Market Before Cart Adds:** Set up a separate **pre-cart banner message** for sales or informational text.
+* **Match Your Theme:** Choose from **multiple styles** for the cart/checkout notice timer, adapting to your theme.
+* **Place it Anywhere:** Use the simple shortcode `[checkout_countdown]` for **custom countdown placement** via hooks or page builders.
+* **Customize Your Message:** Personalize all **countdown text** and **expired cart text** to fit your brand voice.
+* **Brand Your Timer:** Choose custom **banner background and font colors**.
+* **Leverage FOMO:** Perfect for implementing **Fear Of Missing Out** strategies.
 
 ### Ideal for WooCommerce Ticket Sales and Bookings
 
 A checkout or cart countdown timer can help your store speed up product sales. It's a valuable addition to WooCommerce Event ticket sales and WooCommerce Bookings.
 
-### Unlock More Power with Checkout Countdown Pro
+### Unlock Advanced Sales Strategies with Checkout Countdown Pro
 
-Looking for more customization and control over your checkout countdown? Checkout Countdown Pro offers a range of extended features:
+Ready to take your sales optimization to the next level? Checkout Countdown Pro offers powerful features for maximum impact:
 
-* **Cart Clearing:** Empty and clear the WooCommerce cart as a timed event while customers are active on your site. 
-* **Countdown Looping:** Restart and loop the countdown after it's finished. 
-* **Countdown Reset:** Reset the countdown when another product is added to the cart. 
-* **Live Totals Recalculation:** Recalculate the cart and checkout totals with every timer loop. Totals reload live without the page refreshing, so customers don't lose any details at the checkout. Useful for WooCommerce stores with live market rates. 
-* **AJAX Support:** Start the timer when a product is added to the cart without reloading the page. 
-* **Custom Redirect:** Redirect customers after the countdown timer has finished. 
-* **Expiry Message Duration:** Change the display duration of the expiry message.
+*   **Recover Lost Sales with Cart Clearing:** Automatically empty carts after the timer expires (while customers are active), preventing abandoned items from blocking stock.
+*   **Maintain Urgency with Countdown Looping:** Automatically restart the countdown after it finishes, perfect for ongoing promotions or high-demand items.
+*   **Adapt to Cart Changes with Countdown Reset:** Optionally reset the timer when new items are added, giving customers fresh time.
+*   **Ensure Accuracy with Live Totals Recalculation:** Automatically refresh cart/checkout totals with each loop – vital for dynamic pricing or live rates.
+*   **Seamless Experience with AJAX Support:** Start the timer instantly on add-to-cart without page reloads.
+*   **Guide Customers Post-Expiry with Custom Redirects:** Send customers to a specific page (like bestsellers or help) when the timer ends.
+*   **Control Messaging with Expiry Duration:** Choose how long the "expired" message displays.
 
-[Discover the benefits of Checkout Countdown Pro](https://puri.io/plugin/checkout-countdown-woocommerce/)
+[**See How Pro Can Skyrocket Your Conversions →**](https://puri.io/plugin/checkout-countdown-woocommerce/)
 
 ### Configuring Ideal Countdown Duration
 Choosing the right duration for your checkout countdown timer can have a significant impact on your store's performance. You should strike a balance between creating urgency without pressuring the customer. Too short a duration may annoy customers and lead to abandoned carts, while too long a duration may fail to instill a sense of urgency. We recommend analyzing your average customer's time spent on your store and experimenting with different timer durations to find the sweet spot that optimizes conversions and overall customer experience.
@@ -74,9 +76,9 @@ The expiry message displayed when the countdown timer reaches zero is crucial fo
 
 ###  Selling limited stock? Try reserving stock in customer carts.
 
-If you manage stock and want to ensure reserved items aren't sold out during checkout, Checkout Countdown may not fully meet your needs. That's where Reserved Stock Pro by Puri.io may be the alternative solution you need. 
+If you manage stock and want to ensure reserved items aren't sold out during checkout, Checkout Countdown may not fully meet your needs. That's where Reserved Stock Pro by Puri.io may be the alternative solution you need.
 
-Reserved Stock Pro reserves stock in the customer's cart for a limited duration, providing a secure shopping experience during high-demand periods. It's especially beneficial for stores with limited stock items or flash sales.  By using Reserved Stock Pro, you optimize your sales and enhance customer happiness by offering a secure and fair shopping experience.  
+Reserved Stock Pro reserves stock in the customer's cart for a limited duration, providing a secure shopping experience during high-demand periods. It's especially beneficial for stores with limited stock items or flash sales.  By using Reserved Stock Pro, you optimize your sales and enhance customer happiness by offering a secure and fair shopping experience.
 
 [Learn more about Reserved Stock Pro](https://puri.io/plugin/reserved-stock-pro-for-woocommerce/)
 
@@ -91,7 +93,7 @@ Follow these steps to install the Checkout Countdown for WooCommerce plugin:
 Note: This plugin requires WooCommerce to be installed.
 
 1. Upload the Checkout Countdown for WooCommerce plugin to your /wp-content/plugin/ directory or through the plugin admin section under "add new".
-2. Activate the plugin through the ‘Plugins’ menu in WordPress.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Configure your settings by going to WooCommerce settings, then the Checkout countdown tab.
 4. That's it!
 
@@ -137,6 +139,11 @@ Yes, Checkout Countdown for WooCommerce is built with a responsive design, which
 5. Matches your theme, Divi Theme in this case.
 
 == Changelog ==
+
+= 4.0.2 =
+
+* Ready & tested for WordPress 6.8
+* Ready & tested for WooCommerce 9.8
 
 = 4.0.1 =
 
